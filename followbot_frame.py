@@ -20,6 +20,11 @@ class Follower:
         self.x = None
         self.y = None
         self.theta = None
+        
+        self.front_range = 0.5
+        self.f = None
+        self.r = None
+        self.l = None
 
         self.wandering = False
         self.wander_target = None
